@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<include file="struts.xml" />
+	<package name="library" namespace = "" extends="struts-default">
+		<action name="books" class="library.books">
+			<result>/books.jsp</result>
+		</action>
+		<action name="findAuthor" class="library.findAuthor">
+			<result>/details.jsp</result>
+		</action>
+		<action name="deletebook" class="library.deletebook">
+			<result>/deletesuccess.jsp</result>
+		</action>
+	</package>
+	
+	
+	
+</struts>    
