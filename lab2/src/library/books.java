@@ -2,7 +2,7 @@ package library;
 
 import com.opensymphony.xwork2.ActionSupport;
 import java.sql.*;
-inininini
+java lab 4.1
 public class books extends ActionSupport {
 	private String authorname;
 	public String AuthorID;

@@ -1,7 +1,7 @@
 package library;
 import com.opensymphony.xwork2.ActionSupport;
 import java.sql.*;
-aklsdffdasdassfsd
+aklsdffdasd
 public class deletebook extends ActionSupport{
 	private String name;
 	
